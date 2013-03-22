@@ -1,0 +1,41 @@
+.nonogram {
+	font-size:26px;
+}
+.row {
+	height: 30px;
+}
+.row-clue {
+	width: 60px;
+	height: 30px;
+	display: inline-block;
+	text-align: right;
+	background-color: red;
+	/* there's probably a more graceful way of doing this*/
+	/* but without it, text droops */
+	line-height: 30px;
+	vertical-align: top;
+}
+.column-clue {
+	display: inline-block;
+	text-align: center;
+	width: 30px;
+	margin-left:1px;
+}
+.row-clue-spacer {
+	width: 60px;
+	height: 30px;
+	display: inline-block;
+}
+.square {
+	height: 30px;
+	width: 30px;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	display: inline-block;
+}
+.row-clue+.square{
+	border-left: 1px solid black;
+}
+.column-clue-row+.row .square {
+	border-top: 1px solid black;
+}
