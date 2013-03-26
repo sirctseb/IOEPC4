@@ -32,10 +32,26 @@
 	border-bottom: 1px solid black;
 	border-right: 1px solid black;
 	display: inline-block;
+	text-align: center;
+	/* there's probably a more graceful way of doing this*/
+	/* but without it, text droops */
+	line-height: 30px;
+	vertical-align: top;
 }
 .row-clue+.square{
 	border-left: 1px solid black;
 }
-.column-clue-row+.row .square {
+.row:first-child .square {
 	border-top: 1px solid black;
+}
+.big-square {
+	background-image: url(map.png);
+	background-size: 208px 208px;
+	background-position: -5px -2px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	overflow:hidden;
+}
+.square:first-child {
+	border-left: 1px solid black;
 }
