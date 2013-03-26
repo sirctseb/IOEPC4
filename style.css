@@ -1,57 +1,109 @@
 .nonogram {
-	font-size:26px;
+	/*font-size:26px;*/
 }
 .row {
-	height: 30px;
+	height: 3.0em;
 }
 .row-clue {
-	width: 60px;
-	height: 30px;
+	width: 6.0em;
+	height: 3.0em;
 	display: inline-block;
 	text-align: right;
-	background-color: red;
+	/*background-color: red;*/
 	/* there's probably a more graceful way of doing this*/
 	/* but without it, text droops */
-	line-height: 30px;
+	line-height: 3.0em;
 	vertical-align: top;
+	float: left;
+	margin-right: 1em;
 }
 .column-clue {
 	display: inline-block;
 	text-align: center;
-	width: 30px;
+	/*width: 3.0em;*/
+	width:1em;
 	margin-left:1px;
+	/*background-color: blue;*/
+	margin-right:2em;
 }
 .row-clue-spacer {
-	width: 60px;
-	height: 30px;
+	width: 6.0em;
+	height: 3.0em;
 	display: inline-block;
+	margin-right:2em;
 }
 .square {
-	height: 30px;
-	width: 30px;
+	height: 3.0em;
+	width: 3.0em;
 	border-bottom: 1px solid black;
 	border-right: 1px solid black;
+	/*border-left: 1px solid gray;*/
 	display: inline-block;
 	text-align: center;
 	/* there's probably a more graceful way of doing this*/
 	/* but without it, text droops */
-	line-height: 30px;
+	line-height: 3.0em;
 	vertical-align: top;
+	float:left;
+}
+.nonogram .square {
+	/*float:none;*/
+	border-left: none;
 }
 .row-clue+.square{
 	border-left: 1px solid black;
 }
-.row:first-child .square {
+.nonogram .row:nth-child(2) .square {
 	border-top: 1px solid black;
 }
-.big-square {
-	background-image: url(map.png);
-	background-size: 208px 208px;
-	background-position: -5px -2px;
+.big-square .row:first-child {
+	border-top: 1px solid black;
+}
+.mapped {
+	background-image: url(./map.png);
+	background-size: 21em 21em;
+	background-position: -1em -0.2em;
 	background-repeat: no-repeat;
-	display: inline-block;
-	overflow:hidden;
+}
+.mapback {
+	background-image: url(./mapback.png);
+	background-size: 21em 21em;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+.big-square {
+	/*display: inline-block;*/
+	/*overflow:hidden;*/
+	font-family: Georgia;
+	margin: 0px auto;
+	/* TODO this was guess-and check and will probably break if font size changes*/
+	width:18.19em;
+	height:18.19em;
 }
 .square:first-child {
 	border-left: 1px solid black;
+}
+body {
+	font-size: 38px;
+}
+.r1 div {
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	transform:rotate(90deg);
+}
+.r2 div {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.r3 div {
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
 }
