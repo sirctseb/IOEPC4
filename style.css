@@ -1,5 +1,6 @@
 .nonogram {
 	/*font-size:26px;*/
+	display: inline-block;
 }
 .row {
 	height: 3.0em;
@@ -75,16 +76,17 @@
 	/*display: inline-block;*/
 	/*overflow:hidden;*/
 	font-family: Georgia;
-	margin: 0px auto;
+	margin: 100px auto;
 	/* TODO this was guess-and check and will probably break if font size changes*/
-	width:18.19em;
-	height:18.19em;
+	width:18.42em;
+	height:18.42em;
 }
 .square:first-child {
 	border-left: 1px solid black;
 }
 body {
-	font-size: 38px;
+	font-size: 17px;
+	margin-left:10px;
 }
 .r1 div {
 	-webkit-transform:rotate(90deg);
