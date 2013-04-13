@@ -12,14 +12,14 @@
 				// set to random character
 				elems[i].childNodes[0].innerHTML = chars[Math.round(25*Math.random())];
 
-				var rand = Math.random();
-				if(rand < 0.25) {
-					elems[i].className += ' r1';
-				} else if(rand < 0.5) {
-					elems[i].className += ' r2';
-				} else if(rand < 0.75) {
-					elems[i].className += ' r3';
-				}
+				// var rand = Math.random();
+				// if(rand < 0.25) {
+				// 	elems[i].className += ' r1';
+				// } else if(rand < 0.5) {
+				// 	elems[i].className += ' r2';
+				// } else if(rand < 0.75) {
+				// 	elems[i].className += ' r3';
+				// }
 			}
 			// set answer letters
 			if((' ' + elems[i].className + ' ').indexOf(' ' + 'answer' + ' ') > -1) {
