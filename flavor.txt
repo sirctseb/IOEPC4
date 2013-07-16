@@ -1,0 +1,100 @@
+Detroit
+NWNWSWWNW
+In my town, snowy detroit, I watch him cut straight toward my own wood mailbox
+ n      wn  sn w   e         w             s          w        wn w           
+Coming from my town, snowy detroit, I watch him cut straight toward my own wood mailbox
+A cardinal from my town, snowy detroit, I watch him cut straight toward my own wood mailbox
+
+In my town, snowy detroit, I watch him cut straight off woodward on a grid
+ n      wn  sn w   e         w             s            w   w     n  
+
+A Cardinal from my town, snowy detroit, will cut straight off woodward on a grid
+       n             wn  sn w   e       w        s            w   w     n       
+
+A Cardinal from my town, snowy detroit, will cut straight off W following a grid W
+       n             wn  sn w   e       w        s            W      w n         W
+
+A Cardinal from my town, snowy detroit, will cut straight off woodward along a roadway grid
+       n             wn  sn w   e       w        s            w   w       n        w       
+
+Kalamazoo
+NWNNNESSENEENWNEN
+
+Mackinac
+W S W S E E N E S E S S E
+W S W S everyone's E S S E
+W S W S traveled lines E S S E
+ws mackinac island S W frost E that took the lines less traveled by?
+W S W S mackinac island's bridge, took the lines less traveled by
+who saw frost ditch mackinac island's bridge to take lines less traveled by
+Who saw frost ditch mackinac island's bridge? He took lines less travel'd by 
+W   s w    s             n    s  n  s      e   e        nes  ess     e       
+Who saw frost ditch mackinac island's bridge? He took lines less travel'd by 
+it was my mackinac island subway 
+   w s         n    s  n  s  w   
+was it walt or frost that traveled lines less traveled by?
+w s    w          s           e e    nes  ess     e e     
+With S Mackinac postman w
+
+
+Directions
+letters
+cardinal
+
+a cardinal from detroit walked
+
+mailman takes letters from (sentence pun; string?) 
+mailman peeked at relevant letters to get directions (for something)
+mailman had no direction in life so he...
+mailmen discard letters they find useless in providing directions to recipients
+mailmen discard letters they find useless in providing directions to recipients
+mailman uses four important letters to determine his route
+too many letters clutter something, so mailman identified four of them to determine his route
+
+
+N W N N N E S S E N E E N W N E N
+would provide
+a kalamazoo mailman clutter(ing) letters discards direction
+//a kzoo mailman with annoying clutter - awkwardly in a letter wagon ss w n 
+a kzoo mailman W N N N E discards E N E E N W N E N
+a kzoo mailman W N N N E discards E N letters-n N W N E N
+a kzoo mailman, growing annoyed, has discarded any letters-n N W N direction
+a kzoo mailman, growing annoyed, has discarded any letters not known to ? direction
+a kzoo mailman, growing annoyed, has discarded any letters not known to (impart|add|afford) direction
+a kzoo mailman, growing annoyed, has discarded any letters not known to impart direction
+             n     w n   nn  e     s   s    e   n   e  e s n    n wn              e    n
+a kzoo mailman, growing annoyed, has discarded any letters not (allowing | awarding) direction
+with too many letters cluttering, mailman discarded the unimportant ones and kept those he thought would provide direction
+with too many letters cluttering, mailman discarded the unimportant ones and kept those he thought would provide direction
+
+walked the line
+not an off-the-grid kind of guy, he put everything on the line (for his job?)
+trying to make the cut
+he cuts across the state from wherever 
+
+mailman may have up to 26 letters, but discards those that do not provide directions
+mailman may have up to 26 letters, but uses 4 primary ones to determine his route
+
+1. take only [NEWS]*; discard [^NEWS]*
+2. draw route on grid from cities according to [NEWS]*
+3. cut along resulting lines
+
+How to verify the correctness of the cutouts in 13 characters
+
+0123456789012
+doyouhave8pcs
+eightpieces!!
+5x5,2x4,1x3,,
+
+parity bits:
+5 pieces with 5 squares; 2 pieces with 4 squares; 1 piece with 3 squares
+0123456789012
+five5stwo4s13
+are\p/,#5,52,41,3
+
+
+
+
+
+
+
