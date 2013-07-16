@@ -1,6 +1,18 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+	width: 100%;
+	height: 100%;
+}
 .nonogram {
 	/*font-size:26px;*/
 	display: inline-block;
+	/*display:inline;*/
+	margin-left:auto;
+	margin-right:auto;
+	/*position:absolute;*/
 }
 .row {
 	height: 3.0em;
